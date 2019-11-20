@@ -1,3 +1,3 @@
-FROM mcr.microsoft.com/windows/servercore/iis
+FROM FROM microsoft/iis
 WORKDIR /inetpub/wwwroot
 COPY / /inetpub/wwwroot
