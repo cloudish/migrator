@@ -1,3 +1,3 @@
-FROM FROM microsoft/iis
+FROM microsoft/iis
 WORKDIR /inetpub/wwwroot
 COPY / /inetpub/wwwroot
